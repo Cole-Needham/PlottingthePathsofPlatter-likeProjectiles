@@ -23,7 +23,6 @@ vy=1
 vz=2
 #initial acceleration of disc
 ax=0.4
-ay=-0.25
 az=0.2
 
 #Forces stuff
