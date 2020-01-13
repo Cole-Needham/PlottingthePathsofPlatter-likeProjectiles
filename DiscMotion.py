@@ -82,5 +82,5 @@ fig= plt.figure()
 axis=plt.axes(projection="3d")
 #plots points on 3d plane using the three arrays from above
 #Remember to add colour changing points to make the graph nicer
-axis.scatter3D(xhistory,yhistory,zhistory,);
+axis.scatter3D(xhistory,yhistory,zhistory);
 plt.show()
