@@ -1,7 +1,7 @@
 #
 #Cole and Nick's Term 2 Project- Modelling Disc Motion
 #Uses the Euler Method along with initial conditions and
-#forces to plot the position of a disk in 3d space over time.
+#forces to plot the position of a disk in 3-d space over time.
 #
 
 from mpl_toolkits import mplot3d
@@ -43,7 +43,7 @@ def yVelocity (vy,ay,dt):
 def zVelocity (vz,az,dt):
 	vz=vz+az*dt
 	return (vz)
-#Euler steps takes velocity in each cardinal direction and computes position using it
+#Euler steps takes velocity in each cardinal direction and uses it to compute position
 def xPosition (x,vx,dt):
 	x=x+vx*dt
 	return (x)
