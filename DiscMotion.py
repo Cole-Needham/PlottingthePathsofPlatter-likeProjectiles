@@ -8,8 +8,11 @@ from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
 
-#timestep
+#time
 dt=0.2
+time=0
+pasttime=np.array([])
+
 #initial position of disc (in meters)
 x=0
 pastx=[0]
@@ -65,6 +68,8 @@ def Motion (x,y,z,vx,vy,vz,ax,ay,az,dt):
 		vx=xVelocity(vx,ax,dt)
 		vy=yVelocity(vy,ay,dt)
 		vz=zVelocity(vz,az,dt)
+		#time=time+dt
+		#use a numpy array filled with zeroes
 	return (pastx,pasty,pastz)
 
 #Runs "Motion" and takes output of xyz positions as three separate arrays
@@ -75,6 +80,10 @@ yhistory=final[1]
 print(yhistory)
 zhistory=final[2]
 print(zhistory)
+
+#Sets time array to be in 256 evenly spaced intervals
+#Create an array with the same number of points as are in the graph, where the value of each point is
+#(point position/total number of points)*256
 
 
 #Sets 3d plane
