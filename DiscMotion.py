@@ -10,6 +10,11 @@ import matplotlib.pyplot as plt
 
 #timestep
 dt=0.2
+#gravity
+g=9.809
+#Disc Properties
+diameter=0
+mass=0
 #initial position of disc (in meters)
 x=0
 pastx=[0]
@@ -21,17 +26,21 @@ pastz=[0]
 vx=5
 vy=1
 vz=2
+#initial angular velocity
+angular=0
+aoa=0 #angle of attack in degrees
 #initial acceleration of disc
 ax=0.4
+ay=-0.25
 az=0.2
 
 #Forces stuff
-"""def xforces ():
-
+def xforces ():
+	ax=ax+(("""forces in here""")/m)
 def yforces ():
-
-def zforces ():"""
-
+	ay=ay+(("""forces in here"""-m*g)/m)
+def zforces ():
+	az=az+(("""forces in here""")/m)
 #Euler steps takes acceleration in each cardinal direction and evaluates velocity using it
 def xVelocity (vx,ax,dt):
 	vx=vx+ax*dt
