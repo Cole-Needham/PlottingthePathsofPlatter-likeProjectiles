@@ -22,7 +22,7 @@ The programs' uses are as follows:
 
 '2DdiscmotionV2.py'
 -> An early testing branch for the Euler loop as well as lift and drag forces
---> NOT WORTH LOOKING AT, it's only there because it's not hurting anyone
+--> NOT WORTH LOOKING AT
 
 'DataPlotting.py'
 -> Another early branch for testing 3 dimensional plotting
