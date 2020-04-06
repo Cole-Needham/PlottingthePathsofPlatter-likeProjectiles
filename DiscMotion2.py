@@ -32,7 +32,7 @@ angleroll=0 #measures the roll side to side of the disc with respect to the dire
 anglepitch=0 #measures the pitch of the disk fore and back with respect to the direction of the velocity of the disc. ***AKA AOA*** (aviation angles)(wind frame)
 
 #other angular stuff
-vangular=15 #angular velocity of disc in Hz (body frame)
+vangular= #angular velocity of disc in rad/sec (body frame)
 precession=0 #rate of precession per second. likely in degrees. (wind frame)
 
 #Coefficients
