@@ -37,7 +37,7 @@ The programs' uses are as follows:
 
 'DiscMotion4.py'
 -> The big boy
---> Very messy, contains a lot of artifacts from debugging (sorry)
+--> Very messy, contains a lot of artifacts from debugging (I will not remove these comments for fear of angering the machine spirit that resides in my laptop)
 ---> Takes real positional data in array form, initial velocities, and number of real data points
 ----> Runs simulated disc with random coefficients against real data, calculating residuals and storing values along the way
 -----> Returns final lowest residual and coefficients that resulted in it (generated the data used in the paper)
