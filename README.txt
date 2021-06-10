@@ -13,9 +13,7 @@ All code utilizes Python 3. Documentation is poor, but the programs are not comp
 There are a few programs in this repo, but there is a large amount of overlap in code between the versions (as expected)
 README should contain the purpose of each version
 
-Feel free to contact me with any questions at:
-
-cole.needham01@gmail.com
+If you need to contact either of the authors, you can attempt to do so through the University of British Columbia.
 
 ------------------------------------------------------------------------------------
 
