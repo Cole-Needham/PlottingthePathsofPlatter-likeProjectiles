@@ -20,17 +20,9 @@ cole.needham01@gmail.com
 
 The programs' uses are as follows:
 
-'2DdiscmotionV2.py'
--> An early testing branch for the Euler loop as well as lift and drag forces
---> NOT WORTH LOOKING AT
-
-'DataPlotting.py'
--> Another early branch for testing 3 dimensional plotting
---> also not worth looking at, but it's not hurting anyone by being there, is it?
-
 'DiscMotion.py'
 -> Early branch
---> not worth looking at (doesn't contain any equations, just an euler loop and 3d plotting)
+--> not really worth looking at (doesn't contain any equations, just an euler loop and 3d plotting)
 
 'DiscMotion2.py'
 -> First useful piece of code
@@ -39,15 +31,15 @@ The programs' uses are as follows:
 
 'DiscMotion3.py'
 ->Very similar to DiscMotion2
---> also takes real positional data (array form)
----> plots simulation against real data
+--> takes real positional data (array form)
+---> generates 3d plots of simulation against real data
 
 'DiscMotion4.py'
 -> The big boy
 --> Very messy, contains a lot of artifacts from debugging (sorry)
 ---> Takes real positional data in array form, initial velocities, and number of real data points
 ----> Runs simulated disc with random coefficients against real data, calculating residuals and storing values along the way
------> Returns final lowest residual and coefficients that resulted in it
+-----> Returns final lowest residual and coefficients that resulted in it (generated the data used in the paper)
 
 'README.txt'
 -> see 'README.txt'
