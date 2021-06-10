@@ -2,15 +2,16 @@
 
 This is the shared git repo of Cole Needham and Nicholas Phillips
 
-It contains (most) of the code used in "Plotting the Paths of Platter-like Projectiles", 
+It contains the important code used in "Plotting the Paths of Platter-like Projectiles", 
 a Term 2 Project for the Science One program at the
 University of British Columbia
 
 The equations used for the model are based of those of Potts & Crowther (2000/2001) and Hubbard & Hummel (2002) 
 
-All code utilizes Python 3
+All code utilizes Python 3. Documentation is poor, but the programs are not complex, and most variable names should be roughly descriptive of their purpose.
 
-There are a few programs in this repo, but only like 2 of them are important in any way (sorry to disappoint)
+There are a few programs in this repo, but there is a large amount of overlap in code between the versions (as expected)
+README should contain the purpose of each version
 
 Feel free to contact me with any questions at:
 
